@@ -16,7 +16,7 @@
 `git clone https://github.com/elit0451/KeyValueStore.git`
 1. Using a shell navigate to the folder where the repository is located
 1. Run the following command
-`docker run -it --rm -v $(pwd):/src -w /src/KeyValueStore elit0452/dotnet sh -c "dotnet build”`
+`docker run -it --rm -v $(pwd):/src -w /src/KeyValueStore elit0452/dotnet sh -c "dotnet build"`
 	-  In case you don't have the image downloaded, it will be downloaded from  Docker hub 🐳. The library will be built afterwards 📙
 
 	NB! If you have *Windows*, please replace **$(pwd)** with the path to the directory of the repository
