@@ -13,7 +13,7 @@ namespace ClientRead
 
         private void Run()
         {
-            KVS database = new KVS(@"/var/tmp/database");
+            KVS database = new KVS(@"/src/database");
 
             foreach (Tuple<string, string> record in database.GetAllRecords())
             {
