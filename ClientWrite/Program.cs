@@ -13,7 +13,7 @@ namespace ClientWrite
 
         private void Run()
         {
-            KVS database = new KVS(@"\usr\temp");
+            KVS database = new KVS(@"/var/tmp/database");
             database.SetData("ananas", "3");
             database.SetData("banana", "23");
             database.SetData("cranberry", "5809");
